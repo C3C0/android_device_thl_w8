@@ -13,6 +13,6 @@ $(call inherit-product, device/thl/w8/device_w8.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := w8
 PRODUCT_NAME := cm_w8
-PRODUCT_BRAND := thl
+PRODUCT_BRAND := THL
 PRODUCT_MODEL := w8
-PRODUCT_MANUFACTURER := thl
+PRODUCT_MANUFACTURER := THL
