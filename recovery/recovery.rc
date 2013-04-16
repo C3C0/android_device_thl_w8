@@ -3,16 +3,15 @@ on early-init
 
 on init
     export PATH /sbin
+    export LD_LIBRARY_PATH .:/sbin
     export ANDROID_ROOT /system
     export ANDROID_DATA /data
     export EXTERNAL_STORAGE /sdcard
 
     symlink /system/etc /etc
 
-    mkdir /boot
     mkdir /storage
     mkdir /sdcard
-    mkdir /sd-ext
     mkdir /datadata
     mkdir /emmc
     mkdir /system
