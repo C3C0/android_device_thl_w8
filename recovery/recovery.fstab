@@ -6,3 +6,4 @@
 /external_sd    vfat        /dev/block/mmcblk1p1
 /boot           emmc        /dev/bootimg
 /recovery       emmc        /dev/recovery
+/uboot          emmc        /dev/uboot
