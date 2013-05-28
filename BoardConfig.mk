@@ -21,9 +21,11 @@ TARGET_BOOTLOADER_BOARD_NAME := w8
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Recovery
+RECOVERY_NAME := ThL W8/W8+ CWM-based Recovery
 TARGET_RECOVERY_FSTAB := device/thl/w8/recovery/recovery.fstab
 TARGET_RECOVERY_INITRC := device/thl/w8/recovery/recovery.rc
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/thl/w8/recovery/recovery_keys.c
+BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 CWM_EMMC_BOOT_DEVICE_NAME := /dev/bootimg
 CWM_EMMC_BOOT_DEVICE_SIZE := 0x00600000
 CWM_EMMC_RECOVERY_DEVICE_NAME := /dev/recovery

@@ -12,7 +12,7 @@ on init
     mkdir /boot
     mkdir /storage
     mkdir /sdcard
-    mkdir /sd-ext
+    mkdir /external_sd
     mkdir /datadata
     mkdir /emmc
     mkdir /system
@@ -35,7 +35,6 @@ service ueventd /sbin/ueventd
     critical
 
 service recovery /sbin/recovery
-    oneshot
 
 service adbd /sbin/adbd recovery
     disabled

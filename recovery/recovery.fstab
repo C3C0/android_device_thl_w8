@@ -4,6 +4,7 @@
 /data           ext4        /dev/block/mmcblk0p7
 /sdcard         vfat        /dev/block/mmcblk0p8
 /external_sd    vfat        /dev/block/mmcblk1p1
+/sd-ext         auto        /dev/block/mmcblk1p2
 /boot           emmc        /dev/bootimg
 /recovery       emmc        /dev/recovery
 /uboot          emmc        /dev/uboot
